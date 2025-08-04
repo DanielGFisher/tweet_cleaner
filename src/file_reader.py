@@ -1,6 +1,7 @@
 import pandas as pd
 
 class FileReader:
+
     def read_file(self,link):
         df = pd.read_csv(link)
 
