@@ -6,15 +6,15 @@ then generates a detailed JSON report with key insights.
 
 Structure:
 twitter_project/
-├── data/
-│   ├── cleaned_tweets.csv
-│   └── report.json
-├── src/
-│   ├── cleaner.py
-│   ├── data_analyzer.py
-│   ├── file_reader.py
-│   └── report.py
+├── data
+│   ├── cleaned_tweets.csv
+│   └── report.json
 ├── main.py
-└── README.md
+└── src
+    ├── cleaner.py
+    ├── data_analyzer.py
+    ├── file_reader.py
+    └── report.py
+
 
 Run via main
