@@ -11,5 +11,5 @@ class DataCleaner:
 
         return df
 
-    def clear_unclassified_biases(self,df):
-        pass
+    def classify_biases(self,df, category):
+        df[category] = df[category].map({1: 'antisemitic', 0: 'semitic'})

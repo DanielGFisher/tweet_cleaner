@@ -1,3 +1,5 @@
 class ReportBuilder:
     def create_report(self):
-        report = ""
+        report = {
+            "total_tweets" : {}
+        }
