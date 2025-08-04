@@ -14,7 +14,7 @@ twitter_project/
 │   ├── data_analyzer.py
 │   ├── file_reader.py
 │   └── report.py
-├── main.py  # (code shown above)
+├── main.py
 └── README.md
 
 Run via main
