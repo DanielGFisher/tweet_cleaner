@@ -10,8 +10,4 @@ class FileReader:
         df.to_csv(path)
 
     def save_to_json(self, df, path):
-        try:
-            df.to_json(path, orient='records', lines=True, force_ascii=False)
-            print(f"JSON file saved successfully at {path}")
-        except Exception as e:
-            print(f"Error saving JSON file to {path}: {e}")
+        df.to_json(path, orient='records', lines=True, force_ascii=False)
